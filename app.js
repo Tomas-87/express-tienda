@@ -4,6 +4,7 @@ const port = 3000;
 const { template, render, filterCategory } = require('./functions.js');
 const productsData = require('./data.js');
 
+//Creado por Raimundo y Tomás
 //Categorías a crear: Electrónica, Ropa, hogar, Productos, Productos Baratos, Productos Caros
 
 app.get('/', (req, res) => {
